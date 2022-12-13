@@ -1,0 +1,331 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body,html{
+  height: 100vh;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: hsl(233, 8%, 79%);
+}
+
+.container{
+  /* border: 1px solid black; */
+  width: 65%;
+  height: 70%;
+  padding-top: 50px;
+  padding-right:40px;
+  padding-left: 40px;
+  padding-bottom: 50px;
+  background: white;
+}
+
+h2{
+  display: inline-block;
+}
+
+
+#number{
+  background: hsl(240, 100%, 5%);
+  color: white;
+  border-radius: 3px;
+  margin: 0px 10px;
+  padding: 5px 8px;
+}
+
+.note{
+  float:right;
+  color: dimgray;
+  cursor: pointer
+}
+.note:hover{
+  color:hsl(240, 100%, 5%);
+}
+
+.subcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height: 100%;
+  padding-top: 50px;
+  
+}
+
+
+.subcontainer .inner{
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  background: hsl(233, 8%, 79%);
+}
+
+
+.subcontainer .inner1{
+  /* border: 1px solid black; */
+  width: 100%;
+  height: 7rem;
+  display: flex;
+}
+
+
+.img1{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-mark-webber.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 10px;
+}
+
+.img2{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-angela-gray.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 10px;
+}
+
+.img3{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-jacob-thompson.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 10px;
+}
+.img4{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-rizky-hasanuddin.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 15px;
+}
+
+.img5{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-kimberly-smith.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 15px;
+}
+
+.img6{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-nathan-peterson.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 15px;
+}
+
+.img7{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("avatar-anna-kim.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 15px;
+}
+
+.img8{
+  /* border: 1px solid black; */
+  width: 60px;
+  height:60px;
+  background: url("image-chess.webp");
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: 15px 15px;
+}
+
+
+
+.inner4{
+  height: 13rem;
+  /* border: 1px solid black; */
+}
+#risky{
+  border: 1px solid;
+  margin-left:7rem;
+  margin-right: 2rem;
+  padding: 15px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* margin-top: 10px; */
+}
+#risky:hover{
+  background: hsl(233, 8%, 79%);
+  
+}
+
+#risky p{
+  /* line-height: 25px; */
+  font-size: 20px;
+  word-spacing: 5px;
+}
+#risky i:hover{
+  color:hsl(240, 100%, 5%);
+}
+
+#riskyname{
+  /* border: 1px solid; */
+  margin-left:7rem;
+  margin-right: 2rem;
+  border-radius: 5px;
+  margin-top: -5rem;
+  padding-bottom: 10px;
+}
+
+#name{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-right: 10px;
+  cursor: pointer;
+  /* color : hsl(240, 100%, 5%) */; 
+}
+
+#name:hover{
+  color:hsl(240, 100%, 5%);
+}
+
+#name2{
+  font-size: 1.2rem;
+  font-weight: bolder;
+  padding-right: 10px;
+  color : dimgray;
+  cursor: pointer;
+}
+
+#name2:hover{
+  color:hsl(240, 100%, 5%);
+}
+
+
+.msg{
+  /* border: 1px solid black; */
+  display:inline-block;
+  margin: 23px 0px;
+  width: 100%;
+  /* background: hsl(233, 8%, 79%); */
+  padding:5px 5px;
+}
+
+.msg1{
+  /* border: 1px solid black; */
+  display:inline-block;
+  margin: 23px 0px;
+  width: 100%;
+  /* background: hsl(233, 8%, 79%); */
+}
+
+
+ul{
+  display: inline-block;
+  font-size: 30px;
+  /* height: 20px; */
+  margin: 0px 25px;
+  font-weight: bolder;
+  color: hsl(5, 85%, 63%);
+  
+}
+
+i{
+  color: gray;
+}
+#reacted{
+  padding: 0 10px;
+}
+#notification{
+  color: black;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+
+@media(max-width: 370px){
+body,html{
+background: white;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  padding: 30px 10px;
+  /* background: white; */
+}
+
+.subcontainer{
+  width: 100%;
+  /* height: 100vh; */
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  grid-template-rows:8fr; 
+
+  
+}
+.inner1{
+  margin:20px 0; 
+}
+ 
+.inner4{
+  height: 17rem;
+  /* border: 1px solid black; */
+}
+
+#notification{
+  font-size: 20px;
+}
+
+#name {
+  font-size: 15px;
+} 
+
+#name2{
+  font-size: 11px;
+}
+i{
+  font-size: 13px;
+}
+
+ul{
+  font-size: 20px;
+}
+
+.note{
+  font-size: 13px;
+}
+#number{
+  font-size: 12px;
+  /* width: 3px; */
+}
+}
